@@ -1,12 +1,14 @@
 // Submit Button handler
 function handleSubmit() {
-  // @TODO: YOUR CODE HERE
+  // @TODO: YOUR CODE HERE:
+  var city = d3.select("#cityInput").node().value;
 
-  // Select the input value from the form
-
-  // clear the input value
+  // Select the input value from the form:
+  // Clear the input value:
+  d3.select("#cityInput").node().value = "";
 
   // Build the plot with the new stock
+  buildPlot(city);
 }
 
 function getTimes(owmData) {
@@ -18,7 +20,7 @@ function getTemps(owmData) {
 }
 
 function buildPlot(stock) {
-  var apiKey = "YOUR KEY HERE";
+  var apiKey = "a39bee94dc73be4ae8794905484c851";
 
   let url = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=imperial`
 
@@ -50,3 +52,4 @@ function buildPlot(stock) {
 
 // Add event listener for submit button
 // @TODO: YOUR CODE HERE
+d3.select("#submit").on("click", handleSubmit);

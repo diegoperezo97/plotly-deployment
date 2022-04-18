@@ -1,4 +1,4 @@
-var topMovies = [
+var data = [
   {
   title: "The Shawshank Redemption",
   year: 1994,
