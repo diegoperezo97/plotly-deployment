@@ -5,6 +5,7 @@ Creating data visualizations for the web will be something I learn in this modul
 Despite the strength of programs like Pandas and Matplotlib, sharing data insights is not as straightforward as it might be. My audience often needs to have Python installed on their computer in order to engage with data. In this module, I'll demonstrate how to utilize JavaScript to produce visually appealing, interactive data visualizations.
 
 A JavaScript data visualization package called Plotly will be used by me. Interactive resources from libraries like Plotly can assist my audience comprehend my data and reach the same conclusions that I did.
+
 In order to modify and transform data, I'll additionally build on my JavaScript basis. JavaScript will be used to build interactive elements like buttons and drop-down menus and to get data from outside sources like CSV files and APIs. I'll then publish a well-done data visualization on the Web. The power of JavaScript is utilized throughout.
 
 ## Overview of the Analysis
